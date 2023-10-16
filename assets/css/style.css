@@ -736,7 +736,7 @@ a {
 .preview-icon {
     height: 80px;
     width: 80px;
-    color: #2747d5;
+    color: #F65E17;
     background-color: #fff;
     font-size: 32px;
 }
@@ -1367,7 +1367,14 @@ footer {
     background:#F65E17;
     margin-right:20px;
     color:white;
-    padding:10px;
+    padding:10px 20px;
+}
+.demo-btn:hover
+{
+    background:#de5d21;
+    margin-right:20px;
+    color:white;
+    padding:10px 20px;
 }
 .demo-btn-two
 {
@@ -1377,4 +1384,18 @@ footer {
     padding:10px;
     color:#F65E17;
     margin-left:15px;
+}
+.demo-btn-three
+{
+
+    margin-right:20px;
+    border:2px solid #FBF45B;
+    padding:10px;
+    color:#FBF45B;
+    margin-left:15px;
+}
+.demo-btn-three:hover
+{
+   background:#FBF45B;
+   color:black;
 }
