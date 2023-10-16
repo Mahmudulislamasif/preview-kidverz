@@ -1413,3 +1413,24 @@ footer {
 .nav-link:focus, .nav-link:hover {
     color: black;
 }
+
+.page-preview-image-wrap{
+height: 400px;
+overflow:hidden
+}
+.page-preview-image {
+    transform: translateY(0);
+    -webkit-transition: all 4s ease-out;
+    -moz-transition: all 4s ease-out;
+    -ms-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    transition: all 4s ease-out;
+}
+.page-preview:hover .page-preview-image {
+    transform: translateY(calc(-100% + 450px));
+    -webkit-transition: all 4s ease-out;
+    -moz-transition: all 4s ease-out;
+    -ms-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    transition: all 4s ease-out;
+}
