@@ -694,13 +694,13 @@ a {
     overflow:hidden;
 }
 
-/* .page-preview:hover {
+.page-preview:hover {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
     /* background-color: #a1b4d7;
     border-color: #a1b4d7; 
-}  */
+} 
 
 .card-page-preview-box {
     background-color: #fff;
@@ -1243,7 +1243,7 @@ footer {
       transform: translate(0, 0);
     }
   } */
-  .rounded-shape {
+  /* .rounded-shape {
     position: absolute;
     height: 300px;
     width: 300px;
@@ -1256,7 +1256,7 @@ footer {
         height: 360px;
         width: 360px;
     }
-}
+} */
 
 /* Circle Shape -------- */
 
@@ -1364,7 +1364,7 @@ footer {
 }
 .demo-btn
 {
-    background:#288efc;
+    background:#F65E17;
     margin-right:20px;
     color:white;
     padding:10px;
@@ -1373,6 +1373,8 @@ footer {
 {
     background:white;
     margin-right:20px;
-    border:2px solid #288efc;
+    border:2px solid #F65E17;
     padding:10px;
+    color:#F65E17;
+    margin-left:15px;
 }
