@@ -1306,7 +1306,7 @@ footer {
   }
   .feature-summary
   {
-    background-image:url("../img/feature-image-bg.png")
+    background: linear-gradient(180deg, rgba(33, 161, 119, 0.23) 0%, rgba(255, 255, 255, 0) 92%);
   }
   .feature-summary-headding {
     font-size: 150px;
@@ -1366,16 +1366,13 @@ footer {
 .demo-btn
 {
     background:#F65E17;
-    margin-right:20px;
     color:white;
-    padding:10px 20px;
+    padding:12px 35px;
 }
 .demo-btn:hover
 {
     background:#de5d21;
-    margin-right:20px;
     color:white;
-    padding:10px 20px;
 }
 .demo-btn-two
 {
@@ -1389,11 +1386,9 @@ footer {
 .demo-btn-three
 {
 
-    margin-right:20px;
     border:2px solid #FBF45B;
     padding:10px;
     color:#FBF45B;
-    margin-left:15px;
 }
 .demo-btn-four
 {
