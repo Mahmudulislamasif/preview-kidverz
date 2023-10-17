@@ -1364,11 +1364,22 @@ footer {
     border-radius:30px;
     overflow:hidden;
 }
+.demo-btn-header
+{
+    background:#F65E17;
+    color:white;
+    padding:12px 35px;
+    width:100%;
+    max-width:250px;
+    width:100%;
+}
 .demo-btn
 {
     background:#F65E17;
     color:white;
     padding:12px 35px;
+    width:100%;
+    max-width:200px;
 }
 .demo-btn:hover
 {
@@ -1390,6 +1401,8 @@ footer {
     border:2px solid #FBF45B;
     padding:10px;
     color:#FBF45B;
+    width:100%;
+    max-width:200px;
 }
 .demo-btn-four
 {
@@ -1402,6 +1415,22 @@ footer {
 {
    background:#FBF45B;
    color:black;
+}
+.demo-btn-footer
+{
+    background:#F65E17;
+    color:white;
+    padding:12px 35px;
+    width:100%;
+    max-width:250px;
+}
+.demo-btn-footer-three
+{
+    border:2px solid #FBF45B;
+    padding:10px;
+    color:#FBF45B;
+    width:100%;
+    max-width:200px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: white;
