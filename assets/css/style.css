@@ -1469,6 +1469,9 @@ overflow:hidden;
     font-size:1.125rem;
     color:black;
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #F65E17;
+}
 .page-preview-two:hover {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
