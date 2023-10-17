@@ -1121,9 +1121,9 @@ footer {
 }
 
 .red span {
-    background: -webkit-gradient(linear, left top, left bottom, from(#F70505), to(#8F0808));
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#F70505), to(#8F0808));
     background: -o-linear-gradient(#F70505 0%, #8F0808 100%);
-    background: linear-gradient(#F70505 0%, #8F0808 100%);
+    background: linear-gradient(#F70505 0%, #8F0808 100%);  */
 }
 
 .red span::before {
@@ -1166,8 +1166,8 @@ footer {
     width: 36px;
     text-align: center;
     line-height: 36px;
-    color: var(--bs-primary);
-    border: 2px solid var(--bs-primary);
+    color: #F65E17;
+    border: 2px solid #F65E17;
     border-radius: 0.5rem;
 
 }
