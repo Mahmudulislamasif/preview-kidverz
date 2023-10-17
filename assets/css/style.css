@@ -707,7 +707,8 @@ a {
     position: relative;
 }
 
-.page-preview-image-wrap {
+.page-preview-image-wrap
+ {
 
     margin-bottom: 0;
 }
@@ -1419,6 +1420,11 @@ height: 600px;
 overflow:hidden;
 
 }
+.page-preview-image-wrap-two{
+    height: 300px;
+    overflow:hidden;
+    
+    }
 .page-preview-image {
     transform: translateY(0);
     -webkit-transition: all 4s ease-out;
